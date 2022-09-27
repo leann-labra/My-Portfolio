@@ -29,6 +29,7 @@ body{
     align-items: center;
     z-index: 9;
     background: #00000059;
+    margin-bottom: 5%;
 }
 
 .nav-links {
@@ -52,36 +53,45 @@ body{
     opacity: 1;
 }
 
-section {
-    width: 70%;
-    margin: 20px auto;
-    border-bottom: 5px solid yellow;
-  }
+header {
+    margin-top: 5%;
+    padding: 5%;
+    text-align: center;
+    color:var(--greenyellow);
+}
+
+header p {
+    color: whitesmoke;
+    display:inline-flex;
+}
 
 
-  
-.box {
+.card {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    padding: 25%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 0px;
+    margin-left: 0px;
+    width:100%;
     color: var(--greenyellow);
 }
 
-h2 {
-    width:100%;
+.title-card {
     margin-bottom: 2%;
-    text-align:center;
-}
-
-div {
-    display: block;
+    float:left;
+    margin-left: 5%;
+    color: var(--greenyellow)
 }
 
 img {
-    display:inline-block;
+    width:100%;
     padding: 5%;
-    margin: 10%;
+}
+
+.info {
+    color:#fff;
 }
 
 .contact-form input, .contact-form textarea{
@@ -118,3 +128,21 @@ img {
     cursor: pointer;
 }
 
+ul {
+    padding: 5%
+    list-style-type: style none;
+
+}
+
+@media screen and (max-width: 800px) {
+    box {
+      flex: 0 0 25%;
+    }
+  }
+
+  @media screen and (max-width: 550px) {
+    box {
+        flex: 0 0 25%;
+    }
+    }
+  

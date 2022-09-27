@@ -8,43 +8,60 @@
     <title>Leann's Portfolio</title>
 </head>
 <body>
+
     <nav class="navbar">
         <ul class="nav-links">
-            <li class="link"><a href="#aboutMe">about Me</a></li>
+            <li class="link"><a href="#aboutme">about Me</a></li>
             <li class="link"><a href="#projects">projects</a></li>
             <li class="link"><a href="#background">background</a></li>
             <li class="link"><a href="#contact">contact</a></li>
         </ul>
-
     </nav>
     
-   <section>
-    <div class="box" id="aboutme">
-        <h2>about me</h2>
-            <img src="./assets/images/nameless-nobody.JPG"/>
-   </section>
+    <header>
+        <h1>Welcome to my page!</h1>
+         <p>this is my portfolio that I will work on throughout bootcamp</p>
+  
+    </header>
+   
+    <main>
 
-   <section>
-    <div class="box" id="projects">
-        <h2>projects</h2>
-            <img src="image-place holder">
-   </section>
+        <section>
+             <div class="card" id="aboutme">
+                 <h2 class="title-card">about me</h2>
+                <img src="./assets/images/aboutme.JPG"/>
+             </div>
+        
+            <div class="card" id="projects">
+                <h2 class="title-card">projects</h2>
+                    <img src="./assets/images/projects.PNG">
+                    <p class="info">In my spare time, I 3d model. </p>
+            </div>
 
-   <section>
-    <div class="box" id="background">
-        <h2>background</h2>
-            <img src="image-place holder">
-   </section>
+             <div class="card" id="background">
+               <h2>background</h2>
+                <img src="image-place holder">
+            </div>
 
-   <section>
-    <div class="box" id="contact">
-        <h2>contact</h2>
-            <form class="contact-form">
-                <input type="text" name="name" id="name" autocomplete="off" placeholder="name">
-                <input type="text" name="email" id="email" autocomplete="off" placeholder="email">
-                <textarea name="msg" id="msg" placeholder="message" autocomplete="off"></textarea>
-                <button type="submit" class="form-submit-btn">contact</button>
-            </form>    
-   </section>
+            <div class="card" id="contact">
+                <h2 class="title-card">contact</h2>
+                    <form class="contact-form">
+                        <input type="text" name="name" id="name" autocomplete="off" placeholder="name">
+                        <input type="text" name="email" id="email" autocomplete="off" placeholder="email">
+                        <textarea name="msg" id="msg" placeholder="message" autocomplete="off"></textarea>
+                        <button type="submit" class="form-submit-btn">contact</button>
+                    </form>    
+
+                        
+                     <ul class="info">
+                         <li>Number: (435)-668-2246</li>
+                        <li>Email: leann.labra@gmail.com</li>
+                    </ul>
+            </div>
+
+         </section>
+
+    </main>
 </body>
+
 </html>
