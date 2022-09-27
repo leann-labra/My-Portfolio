@@ -7,6 +7,7 @@
 :root {
     --greenyellow:  greenyellow;
 }
+
 body{
     width: 100%;
     max-width: 1400px;
@@ -51,6 +52,14 @@ body{
     opacity: 1;
 }
 
+section {
+    width: 70%;
+    margin: 20px auto;
+    border-bottom: 5px solid yellow;
+  }
+
+
+  
 .box {
     display: flex;
     justify-content: center;
@@ -59,7 +68,21 @@ body{
     color: var(--greenyellow);
 }
 
+h2 {
+    width:100%;
+    margin-bottom: 2%;
+    text-align:center;
+}
 
+div {
+    display: block;
+}
+
+img {
+    display:inline-block;
+    padding: 5%;
+    margin: 10%;
+}
 
 .contact-form input, .contact-form textarea{
     width: 100%;
@@ -94,3 +117,4 @@ body{
     border-radius: 10px;
     cursor: pointer;
 }
+
